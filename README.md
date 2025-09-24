@@ -1,1 +1,0 @@
-# research-investigation-between-yolov8-and-detectron2-ai-architectures-for-plant-class-segmentation
