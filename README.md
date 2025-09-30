@@ -1,5 +1,5 @@
-# Developing Custom Computer Vision Algorithm for Reconstructing 3D Models from Constrained 2D Stereoscopic Images Using OpenCV and Open3D
+# Comparing YOLOv8 and Detectron2 Architectures for Plant Class Segmentation Using Transfer Learning
 
-A computer vision algorithm that reconstructs a 3D model from constrained 2D stereoscopic images captured from the front, left, back, and right of an object. Unlike traditional photogrammetry that requires many angles, this approach is designed to address limited views. It combines standalone computer vision techniques into a unified process, leveraging OpenCV and Open3D libraries. It is useful in applications such as plant phenotyping, where capturing multiple angles may be challenging yet still sufficient for constructing 3D models for visual inspection and analysis.
+Two deep learning models trained on popular segmentation architectures, YOLOv8 and Detectron2, for segmenting the plant class. A dataset of plant images with diverse types and backgrounds was collected, and both models were trained using identical hyperparameters, then adjusted in parallel to compare performance, training speed, and memory consumption. Quantitative metrics such as average precision, loss, training time, RAM, and disk usage were used for evaluation. Results show that YOLOv8 trains faster and maintains consistent performance, while Detectron2 achieves higher accuracy when using larger hyperparameter settings.
 
 Read more: www.johnivandiaz.com/projects/plant-segmentation-model
